@@ -20,5 +20,14 @@ public class Main {
             System.out.println("Сегодня пятница, " + friday + " -е число. Необходимо подготовить отчет.");
         }
 
+        //ex3
+        int today = 2022;
+        int start = today - 200;
+        int end = today + 100;
+        int comet = 0;
+        for (comet = start; comet <= end; comet ++)
+            if ( comet % 79 == 0) {
+            System.out.println(comet);
+        }
     }
 }
